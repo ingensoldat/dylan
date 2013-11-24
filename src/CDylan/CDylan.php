@@ -90,7 +90,7 @@ class CDylan implements ISingleton {
     $this->data['stylesheet'] = "{$themeUrl}/style.css";
 
     // Include the global functions.php and the functions.php that are part of the theme
-    $ly = &$this;
+    $dyl = &$this;
     include(DYLAN_INSTALL_PATH . '/themes/functions.php');
     $functionsPath = "{$themePath}/functions.php";
     if(is_file($functionsPath)) {
